@@ -177,6 +177,7 @@ nav .navbar #menu .fa-bars{
     gap: 20px;
 
     padding: 20px;
+    margin-bottom: 30px;
 
     text-align: center;
 
@@ -200,11 +201,6 @@ nav .navbar #menu .fa-bars{
     background-color: #9792e4;
 }
 
-
-
-
-
-
 /* /Section 2 */
 
 
@@ -212,20 +208,73 @@ nav .navbar #menu .fa-bars{
 .second-cards-container{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
 
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
+.second-cards-container .text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    text-align: center;
+    line-height: 2em;
+}
+
+.second-cards-container .text .title{
+    color: #9792e4;
+}
+
+
+
 .second-cards-container .card{
-    min-height: 130px;
-    /* test */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    padding: 20px;
 
     border-radius: 20px;
     
     background-color: #9792e4;
 }
+
+.second-cards-container .card .card-inner-top .img-container{
+    width: 150px;
+    height: 150px;
+
+    overflow: hidden;
+
+    border-radius: 50%;
+}
+
+.second-cards-container .card .card-inner-top .img-container img{
+    height: 100%;
+
+    object-position: -30px 0px;
+}
+
+.second-cards-container .card .card-inner-bot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    text-align: center;
+    line-height: 1.8em;
+
+    color: white;
+}
+
+
+
+
+
+
+
 /* /Section 3 */
 
 
