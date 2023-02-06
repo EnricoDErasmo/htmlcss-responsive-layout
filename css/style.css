@@ -128,31 +128,17 @@ nav .navbar #menu .fa-bars{
     color: white;
 }
 
-
-
-
-.first-cards-container .card-one .img-container{
-    width: 240px;
-}
-
 .first-cards-container .card-one .img-container img{
     position: relative;
     top: 25px;
     width: 100%;
 }
 
-
-
-
-
-
 /* /Section 1 */
 
 
 /* Section 2 */
 .second-sec-container{
-    min-height: 500px;
-    /* test */
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -165,6 +151,60 @@ nav .navbar #menu .fa-bars{
 .second-sec-container .inner{
     height: 50%;
 }
+
+.second-sec-container .inner.top{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    margin-bottom: 20px;
+
+    color: white;
+}
+
+.second-sec-container .inner.top .title{
+    font-size: 1.4em;
+}
+
+.second-sec-container .inner.top .img-container img{
+    width: 100%;
+}
+
+.second-sec-container .inner.bot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+.second-sec-container .inner.bot .img-container img{
+    width: 100%;
+}
+
+.second-sec-container .inner.bot .circle-btn{
+    padding: 15px;
+
+    border-radius: 50%;
+    border-style: none;
+
+    cursor: pointer;
+
+    background-color: #9792e4;
+}
+
+
+
+
+
+
 /* /Section 2 */
 
 
