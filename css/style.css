@@ -3,3 +3,218 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.centered{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Assets */
+
+                    /* Navbar */
+nav{
+    margin-bottom: 40px;
+
+    min-height: 30px;
+
+    background-color: #0084fd;
+}
+
+nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 0;
+}
+
+nav .navbar #logo{
+    width: 60px;
+}
+
+nav .navbar #logo img{
+    width: 100%;
+}
+
+nav .navbar #menu .fa-bars{
+    font-size: 1.2em;
+    color: white;
+}
+
+
+
+
+/* /Navbar */
+
+
+                    /* Main */
+
+/* Section 1 */
+.first-cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    margin-bottom: 40px;
+}
+
+.first-cards-container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    text-align: center;
+    line-height: 1.4em;
+
+    background-color: #b5ddff;
+}
+
+.first-cards-container .card i{
+    color: #0084fd;
+
+    font-size: 6em;
+}
+
+.first-cards-container .title{
+    color: #0585fc;
+}
+
+.first-cards-container .paragraph{
+    font-size: 0.9em;
+}
+
+.first-cards-container .card-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    line-height: 1.4em;
+
+    background-color: #b5ddff;
+}
+
+.first-cards-container .card-one .inner-one{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.first-cards-container .card-one .inner-one button{
+    padding: 10px 50px;
+
+    border-radius: 30px;
+    border-style: none;
+
+    background-color: #0084fd;
+    color: white;
+}
+
+.first-cards-container .card-one .inner-one button i{
+    font-size: 1em;
+    color: white;
+}
+
+
+
+
+.first-cards-container .card-one .img-container{
+    width: 240px;
+}
+
+.first-cards-container .card-one .img-container img{
+    position: relative;
+    top: 25px;
+    width: 100%;
+}
+
+
+
+
+
+
+/* /Section 1 */
+
+
+/* Section 2 */
+.second-sec-container{
+    min-height: 500px;
+    /* test */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 20px 0;
+
+    background-color: #9792e4;
+}
+
+.second-sec-container .inner{
+    height: 50%;
+}
+/* /Section 2 */
+
+
+/* Section 3 */
+.second-cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.second-cards-container .card{
+    min-height: 130px;
+    /* test */
+
+    border-radius: 20px;
+    
+    background-color: #9792e4;
+}
+/* /Section 3 */
+
+
+/* Section 4 */
+.third-cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    background-color: #9792e4;
+}
+
+.third-cards-container .card{
+    min-height: 130px;
+    /* test */
+
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
