@@ -298,7 +298,7 @@ nav .navbar #menu .fa-bars{
     gap: 20px; 
 }
 
-.third-cards-container .card-title{
+.card-title{
     padding: 30px 0;
 
     font-size: 1.4em;
@@ -540,6 +540,23 @@ nav .navbar #menu .fa-bars{
         flex-direction: row;
     }
     /* /Section 3 */
+
+    /* Section 4 */
+
+    .third-cards-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        padding-bottom: 40px;
+    }
+
+    .third-cards-container .card{
+        width: calc(50% - (20px / 2));
+    }
+    /* /Section 4 */
+
+
+
 
 
 
