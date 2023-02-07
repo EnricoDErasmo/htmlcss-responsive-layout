@@ -120,6 +120,8 @@ nav .navbar #menu .fa-bars{
     border-radius: 30px;
     border-style: none;
 
+    cursor: pointer;
+
     background-color: #0084fd;
     color: white;
 }
@@ -503,6 +505,31 @@ nav .navbar #menu .fa-bars{
 .foot-container a{
     color: #6c6a98;
 }
+
+@media screen and (min-width: 575px){
+
+    /* Section 1 */
+    .first-cards-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .first-cards-container .card{
+        width: calc(100% / 3 - (20px / 3 * 2));
+    }
+
+    .first-cards-container .card-one{
+        width: calc(100% / 3 * 2 - (20px / 3));
+    }
+
+    .first-cards-container .card-one .inner-one button{
+        font-size: 1.2em;
+    }
+    /* /Section 1 */
+
+    /* Section 2 */
+
+} 
 
 
 
