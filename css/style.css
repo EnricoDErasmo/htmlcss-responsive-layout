@@ -536,7 +536,16 @@ nav .navbar #menu .fa-bars{
 
     /* Section 3 */
 
-    
+    .second-cards-container .card{
+        flex-direction: row;
+    }
+    /* /Section 3 */
+
+
+
+
+
+
 
 
 } 
