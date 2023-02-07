@@ -45,6 +45,36 @@ nav .navbar #menu .fa-bars{
     color: white;
 }
 
+nav .nav-right .nav-right-links{
+    display: none;
+}
+
+nav .nav-right .nav-right-links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    list-style-type: none;
+}
+
+nav .nav-right .nav-right-links ul li a{
+    text-decoration: none;
+
+    color: white;
+}
+
+nav .nav-right .nav-right-links button{
+    padding: 10px 15px;
+
+    border-radius: 20px;
+    border-style: none;
+
+    background-color: white;
+}
+
+
+
 
 
 
@@ -148,18 +178,17 @@ nav .navbar #menu .fa-bars{
 
 
 /* Section 2 */
+
+.second-sec-container-back{
+    background-color: #9792e4;
+}
+
 .second-sec-container{
     display: flex;
     flex-direction: column;
     gap: 10px;
 
     padding: 20px 0;
-
-    background-color: #9792e4;
-}
-
-.second-sec-container .inner{
-    height: 50%;
 }
 
 .second-sec-container .inner.top{
@@ -504,6 +533,9 @@ nav .navbar #menu .fa-bars{
     color: #6c6a98;
 }
 
+
+/* Tblet responsive */
+
 @media screen and (min-width: 575px){
 
     /* Section 1 */
@@ -562,18 +594,76 @@ nav .navbar #menu .fa-bars{
     }
     /* /Section 5 */
 
-
-
-
-
-
-
-
-
-
-
-
 } 
+
+
+/* Desktop responsive */
+
+
+@media screen and (min-width: 991px){
+    .centered{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* Assets */
+
+    /* Nav */
+
+    nav .nav-right .nav-right-links{
+        display: block;
+    }
+
+    nav .navbar #menu{
+        display: none;
+    }
+    /* /Nav */
+
+
+    /* Section 1 */
+
+    .first-cards-container .card-one{
+        flex-direction: row;
+    }
+    /* /Section 1 */
+
+    /* Section 2 */
+
+    .second-sec-container{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 50px;
+
+        padding-top: 100px;
+    }
+
+    
+    .second-sec-container .inner.top .title{
+        font-size: 1.6em;
+    }
+    
+    .second-sec-container .inner.top{
+        max-width: 40%;
+    }
+    
+    .second-sec-container .inner.bot{
+        max-width: 35%;
+    }
+
+    .second-sec-container .inner.bot .img-container img{
+        width: 60%;
+    }
+    /* /Section 2 */
+
+
+    /* Section 4 */
+
+    .third-cards-container .card{
+        width: calc(100% / 3 - (20px / 3 * 2));
+    }
+
+}
 
 
 
