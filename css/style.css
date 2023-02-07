@@ -427,6 +427,76 @@ nav .navbar #menu .fa-bars{
 
 /* Section 6 */
 
+.last-sec-container-back{
+    background-color: #9792e4;
+
+    color: white;
+}
+
+.last-sec-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 40px 0;
+
+    text-align: center;
+}
+
+.last-sec-container .text-2{
+    font-size: 1.6em;
+}
+
+.last-sec-container .text-3{
+    font-size: 3.6em;
+
+    color: #fdc15f;
+}
+
+.last-sec-container .paragraph{
+    line-height: 1.8em;
+}
+
+.last-sec-container .last-sec-btn button{
+    padding: 15px 100px;
+
+    border-radius: 30px;
+    border-style: none;
+
+    cursor: pointer;
+
+    background-color: white;
+
+    color: #9792e4;
+}
+
+.last-sec-container .text-4{
+    font-size: 0.8em;
+}
+
+.last-sec-container .text-4 a{
+    color: white;
+}
+/* /Section 6 */
+
+
+                    /* /Main */
+
+
+                    /* Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
