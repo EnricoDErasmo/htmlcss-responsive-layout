@@ -484,6 +484,25 @@ nav .navbar #menu .fa-bars{
 
 
                     /* Footer */
+.foot-back{
+    padding: 40px 0;
+
+    background-color: #333333;
+}
+
+.foot-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    text-align: center;
+
+    color: white;
+}
+
+.foot-container a{
+    color: #6c6a98;
+}
 
 
 
