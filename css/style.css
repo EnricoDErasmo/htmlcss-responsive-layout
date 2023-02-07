@@ -404,7 +404,7 @@ nav .navbar #menu .fa-bars{
 }
 
 .about-us-container .about-us-bot .paragraph{
-    font-size: 1.8em;
+    font-size: 1.4em;
     line-height: 1.4em;
 
     color: #9792e4;
@@ -412,8 +412,6 @@ nav .navbar #menu .fa-bars{
 
 .about-us-container .about-us-bot .about-us-btn{
     padding: 10px 14px;
-
-    font-size: 1.2em;
 
     border-radius: 20px;
     border-style: none;
@@ -554,6 +552,16 @@ nav .navbar #menu .fa-bars{
         width: calc(50% - (20px / 2));
     }
     /* /Section 4 */
+
+    /* Section 5 */
+
+    .about-us-container{
+        flex-direction: row;
+
+        padding: 60px 0;
+    }
+    /* /Section 5 */
+
 
 
 
